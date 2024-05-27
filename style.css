@@ -15,33 +15,31 @@ body {
 .head-container{
     background-color: #9276de;
     display: flex;
-    padding: 10px 40px;
-    min-height: 90px;
+    justify-content: space-between;
+    padding: 0 40px;
+    min-height: 100px;
 }
 .nav-title-section{
-    width: 100%;
-    margin: 0 auto;
+    width: 55%;
 }
+
 .nav-image{
     display: flex;
     align-items: center;
-    width:45%;
 }
 .nav-image h1{
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
 }
 .nav-bar{
-    width: 45%;
-    margin: 0 auto;
+    width: 70%;
+    margin: 20px 0;
 }
 
 .list-items{
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    min-height: 80px;
-
+    justify-content: space-between;
 }
 .list-items a{
     color: white;
@@ -53,6 +51,7 @@ body {
     background-color: #e893cf;
     border-radius: 5px;
     padding: 10px 20px;
+    width: max-content;
 }
 .nav-button a{
     color: black;
