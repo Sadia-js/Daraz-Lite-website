@@ -1,5 +1,8 @@
 @media only screen and (min-width: 200px) and (max-width: 576px) {
 
+    body{
+        overflow-x: hidden;
+    }
     /* header */
     .head-container{
         flex-direction: column;
@@ -24,8 +27,7 @@
         justify-content: center;
         align-items: center;
         gap: 30px;
-        margin: 30px 25px;
-        padding: 40px 24px;
+        padding: 30px 0;
     }
     .banner-text-container{
         width: 60%;
@@ -49,12 +51,15 @@
         flex-direction: column;
         align-items: center;
     }
+    .products-number {
+        font-size: 0.75rem;
+    }
     .products-desc{
-        width: 300px;
-        height: 450px;
+        max-width: 300px;
+        max-height: 420px;
     }
     .pro-img img{
-        width: 210px;
+        width: 180px;
     }
     .bottom-part{
         margin: 25px;
