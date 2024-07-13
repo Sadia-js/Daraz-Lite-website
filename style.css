@@ -15,7 +15,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 40px;
-    min-height: 100px;
 }
 .nav-title-section{
     display: flex;
@@ -60,7 +59,8 @@ body {
 
 /* banner container */
 .banner-container{
-    margin: 40px 40px;
+    width: 90%;
+    margin: 40px auto;
     padding: 25px;
     border-radius: 20px;
     background-color: #e6e9eb;
@@ -102,50 +102,45 @@ body {
     background: linear-gradient(-45deg, #e893cf, #9276de);
     color: white;
     padding: 10px 15px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-size: 1rem;
 }
 /* products section */
 .products-section{
-    margin: 40px;
+    width: 90%;
+    margin: 0 auto;
 }
 .products{
     display: grid;
-    grid-template-columns: repeat(3, auto);
-    gap: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 }
 #text-title{
     text-align: center;
+    margin-bottom: 30px;
 }
 .products-desc{
-    height: 480px;
-    width: 350px;
-    border-radius: 15px;
+    padding: 20px;
+    border-radius: 12px;
     background-color: #e6e9eb;
 }
 .pro-img{
     text-align: center;
+    width: 100%;
 }
 .pro-img img{
-    width: 250px;
-    margin: 10px;
+    width: 100%;
 }
 .content-heading{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 25px;
-}
-.products-number{
-    font-size: 0.9rem;
+    margin: 25px 0;
 }
 .right-side-icons{
     display: flex;
     align-items: center;
     gap: 10px;
-}
-.bottom-part{
-    margin: 30px 25px;
 }
 .pro-btn{
     margin-top: 25px;
@@ -156,11 +151,13 @@ body {
     font-size: 1rem;
 }
 .last-part{
-    height: 40px;
+    height: 80px;
     margin-top: 40px;
     background-color: #9276de;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 1.4rem;
     font-weight: 500;
+    text-align: center;
 }
